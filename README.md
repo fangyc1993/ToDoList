@@ -19,7 +19,7 @@ Main Feature:
 
 Clone git repository
 ```
-git clone git@github.com:joyce-song/ToDoList.git
+git clone git@github.com:fangyc1993/ToDoList.git
 ```
 Enter project folder
 ```
