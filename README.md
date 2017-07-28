@@ -13,7 +13,7 @@ Main Feature:
 [DEMO](https://fangyc1993.github.io/ToDoList/page.html)
 ## Sreenshot
 
-![](https://github.com/fangyc1993/ToDoList/screenshot.png)
+![](https://github.com/fangyc1993/ToDoList/blob/master/screenshot.png)
 
 ## Local Launch
 
