@@ -10,7 +10,7 @@ Main Feature:
 - Data will save in cloud storage.
 - Specific task status sign, provide a task filter by status.
 
-[DEMO](https://joyce-song.github.io/ToDoList/page.html)
+[DEMO](https://fangyc1993.github.io/ToDoList/page.html)
 ## Sreenshot
 
 ![](https://github.com/joyce-song/ToDoList/blob/master/screenshot.png)
