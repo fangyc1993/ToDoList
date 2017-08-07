@@ -166,7 +166,7 @@
 	            user.signUp().then(function (loginedUser) {
 	                _this.currentUser = _this.getCurrentUser();
 	            }, function (error) {
-	                alert('注册失败');
+	                alert('账号已存在，请直接登录');
 	                console.log(error);
 	            });
 	        },
