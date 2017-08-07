@@ -81,8 +81,8 @@
 
         function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-        var APP_ID = 'eO8rYddRHXwNDa5vWbXobXUD-gzGzoHsz';
-        var APP_KEY = '8ua4G38Q3ADdKNvb3xuXjKVq';
+        var APP_ID = 'R8T9mzH9FE1rs7MsEI0ODJWt-gzGzoHsz';
+        var APP_KEY = '2ScTqg9rApdfLUmUzVYy3G0I';
         _leancloudStorage2.default.init({
             appId: APP_ID,
             appKey: APP_KEY
@@ -1279,8 +1279,7 @@
                     parentVal ?
                     parentVal.concat(childVal) :
                     Array.isArray(childVal) ?
-                    childVal :
-                    [childVal] :
+                    childVal : [childVal] :
                     parentVal
             }
 
@@ -1325,8 +1324,7 @@
                         parent = [parent];
                     }
                     ret[key] = parent ?
-                        parent.concat(child) :
-                        [child];
+                        parent.concat(child) : [child];
                 }
                 return ret
             };
@@ -1394,8 +1392,7 @@
                         val = props[key];
                         name = camelize(key);
                         res[name] = isPlainObject(val) ?
-                            val :
-                            { type: val };
+                            val : { type: val };
                     }
                 }
                 options.props = res;
@@ -2550,8 +2547,7 @@
             // with hand-written render functions / JSX. In such cases a full normalization
             // is needed to cater to all possible types of children values.
             function normalizeChildren(children) {
-                return isPrimitive(children) ?
-                    [createTextVNode(children)] :
+                return isPrimitive(children) ? [createTextVNode(children)] :
                     Array.isArray(children) ?
                     normalizeArrayChildren(children) :
                     undefined
@@ -4015,9 +4011,7 @@
             function mergeClassData(child, parent) {
                 return {
                     staticClass: concat(child.staticClass, parent.staticClass),
-                    class: child.class ?
-                        [child.class, parent.class] :
-                        parent.class
+                    class: child.class ? [child.class, parent.class] : parent.class
                 }
             }
 
@@ -6955,8 +6949,7 @@
                 key
             ) {
                 return modules ?
-                    modules.map(function(m) { return m[key]; }).filter(function(_) { return _; }) :
-                    []
+                    modules.map(function(m) { return m[key]; }).filter(function(_) { return _; }) : []
             }
 
             function addProp(el, name, value) {
