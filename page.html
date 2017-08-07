@@ -63,7 +63,7 @@
                 <input type="text" placeholder="在此输入待办事项" v-model="newTodo" @keypress.enter="addTodo">
                 <span class="btn add" @click="addTodo">添加事项</span>
                 <span class="btn empty" @click="clearall">清空列表</span>
-                <span class="user">你好，{{currentUser.username}} <button class="logout" @click="logout">登出</button></span>
+                <span class="user">你好，{{currentUser.username}} <button class="logout" @click="logout">注销</button></span>
             </div>
             <ul class="todos">
                 <li v-for="todo in todoList" :class="{finished: todo.isFinished}">
