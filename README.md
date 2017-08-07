@@ -13,13 +13,13 @@ Main Feature:
 [DEMO](https://fangyc1993.github.io/ToDoList/page.html)
 ## Sreenshot
 
-![](https://github.com/joyce-song/ToDoList/blob/master/screenshot.png)
+![](https://github.com/fangyc1993/ToDoList/blob/master/screenshot.png)
 
 ## Local Launch
 
 Clone git repository
 ```
-git clone git@github.com:joyce-song/ToDoList.git
+git clone git@github.com:fangyc1993/ToDoList.git
 ```
 Enter project folder
 ```
