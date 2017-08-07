@@ -107,7 +107,7 @@ var app = new Vue({
             user.signUp().then((loginedUser) => {
                 this.currentUser = this.getCurrentUser()
             },(error) => {
-                alert('注册失败')
+                alert('账号已存在，请直接登录')
                 console.log(error)
             })
         },
